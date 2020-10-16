@@ -1,4 +1,4 @@
-C0bal/happy-nlw3## 💻 Projeto
+## 💻 Projeto
 
 O Happy é um projeto que visa facilitar visitas aos orfanatos próximos a você 💜 
 
@@ -20,3 +20,4 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 ---
 
 <p align="center">Desenvolvido com 💜 por Rafael Menegon</p>
+<p align="center">Template de Readme inspirado no [Guilherme Capitão]https://github.com/guilhermecapitao</p>
