@@ -20,4 +20,4 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 ---
 
 <p align="center">Desenvolvido com 💜 por Rafael Menegon</p>
-<p align="center">Template de Readme inspirado no [Guilherme Capitão]https://github.com/guilhermecapitao</p>
+<p align="center">Template de Readme inspirado no [Guilherme Capitão](https://github.com/guilhermecapitao)</p>
