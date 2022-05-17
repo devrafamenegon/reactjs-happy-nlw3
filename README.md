@@ -1,25 +1,81 @@
-## 💻 Projeto
+<h1 align="center">
+    <img alt="Proffy" src=".github/logo.svg" height="100px" />
+    <br>Next Level Week #3<br/>
+    Node.js | ReactJS | React Native
+</h1>
 
-O Happy é um projeto que visa facilitar visitas aos orfanatos próximos a você 💜 
+<p align="center">
+  <a href="#sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#executar">Como Executar</a>
+</p>
 
-Este é um projeto desenvolvido durante a **[Next Level Week](https://nextlevelweek.com/)**, realizada pela **[@Rocketseat](https://github.com/Rocketseat)** durante os dias 12 a 18 de Outubro de 2020.
+<p align="center">
+    <img alt="Design do Projeto" width="650px" src=".github/laptop-happy.png" />
+<p>
 
-## 🔖 Layout
+<a id="sobre"></a>
 
-Você pode visualizar o layout do projeto através dos links abaixo:
+# 📖 Sobre o Projeto
 
-- [Layout Web](https://www.figma.com/file/P4z0whadSiU6kmx2dIgKrN/Happy-Web-(Copy)?node-id=48557%3A657) 
-- [Layout Mobile](https://www.figma.com/file/vGSQ5k7ari0CoRwYcuc5Wv/Happy-Mobile-(Copy)?node-id=0%3A1) 
+O **Happy** é uma aplicação Web e Mobile que possibilita aos usuários cadastrar e encontrar orfanatos. Aos usuários de visitação, é oferecido detalhes do orfanato, como horários e instruções para a visitação do orfanato.
 
-Lembrando que você precisa ter uma conta no [Figma](http://figma.com/) para acessá-lo.
+Esta aplicação foi desenvolvida durante a **Next Level Week #3**, projeto da [Rocketseat](https://rocketseat.com.br/).
 
-## 📝 Licença
+<a id="tecnologias"></a>
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+# 🔩 Tecnologias
 
----
+- [React.js](https://pt-br.reactjs.org/)
+- [React Native](https://reactnative.dev/)
+- [Node.js](https://nodejs.org/en/)
+- [TypeScript](https://www.typescriptlang.org/)
 
-Desenvolvido com 💜 por Rafael Menegon
+<a id="executar"></a>
 
-Template de Readme inspirado no [Guilherme Capitão](https://github.com/guilhermecapitao)
- 
+# 🤔 Como Executar
+
+<h2><strong>Pré-requisitos</strong></h2>
+
+- É **necessário** possuir o **[Node.js](https://nodejs.org/en/)** instalado no computador.
+- É **necessário** possuir o **[Git](https://git-scm.com/)** instalado e configurado no computador.
+- É **necessário** possuir um gerenciador de pacotes, **[Yarn](https://yarnpkg.com/)** ou **[NPM](https://www.npmjs.com/)**.
+- É **necessário** ter o **[Expo](https://expo.io/)** instalado de forma global na máquina.
+
+## Passo 1: Clonando o Projeto na sua máquina:
+
+Abra seu terminal, escolha um lugar para clonar o repositório e execute:
+
+```sh
+  git clone https://github.com/MarcosJBM/Happy-NLW-3.git
+```
+
+## Passo 2: Configurando o Projeto:
+
+Nas pastas **Server** e **Web** execute respectivamente:
+
+```sh
+ npm install e yarn install
+```
+
+Com isso, dependências do projeto serão instaladas.
+
+Na pasta **Server** voce irá precisar criar as **migrations**, execute:
+
+```sh
+ yarn typeorm migration:run
+```
+
+## Passo 3: Executando a aplicação.
+
+Para executar a aplicação **Web** e **Mobile** utilize:
+
+```sh
+ yarn start
+```
+
+Para executar o **Server**, utilize:
+
+```sh
+ npm run dev
+```
