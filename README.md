@@ -47,7 +47,7 @@ Esta aplicação foi desenvolvida durante a **Next Level Week #3**, projeto da [
 Abra seu terminal, escolha um lugar para clonar o repositório e execute:
 
 ```sh
-  git clone https://github.com/MarcosJBM/Happy-NLW-3.git
+  git clone https://github.com/devrafamenegon/reactjs-happy-nlw3.git
 ```
 
 ## Passo 2: Configurando o Projeto:
